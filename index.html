@@ -1,0 +1,168 @@
+a<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML und CSS</title>
+		<meta charset="utf-8">
+		<!-- Das neueste kompilierte und minimierte CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link href="css/css.css" rel="StyleSheet" type="text/css" media="screen">
+		<!-- jquery --> 
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+		<!-- Das neueste kompilierte und minimierte JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+	    
+		<div class="container"> 
+			<div class="row">
+				<div class="col-md-12 col-sm-12"> 
+					<div class="page-header"><h1></h1></div>
+					<img src="media/banner2.png" alt="Banner" class="img-rounded bannerbild" />
+				</div>
+			</div>	
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<!-- Titel und Schalter werden für eine bessere mobile Ansicht zusammengefasst -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Navigation ein-/ausblenden</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+							<a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+					</div>
+				<!-- Alle Navigationslinks, Formulare und anderer Inhalt werden hier zusammengefasst und können dann ein- und ausgeblendet werden -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="html/tutorials.html">Tutorials <span class="sr-only">(aktuell)</span></a></li>
+							<li><a href="html/videos.html">Videos</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mehr <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="html/einstieg.html">Grundlagen und Einstieg</a></li>
+									<li><a href="#">Andere Aktion</a></li>
+									<li><a href="#">Irgendwas anderes</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">Über uns</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">Impressum</a></li>
+								</ul>
+							</li>
+						</ul>
+						<form class="navbar-form navbar-left" role="search">
+							<div class="form-group">
+							<input type="text" class="form-control" placeholder="Suchen">
+							</div>
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</form>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="html/kontakt.html">Kontakt</a></li>
+							</li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+			
+			<div class="jumbotron">
+				<h1>HTML & CSS Zone</h1>
+				<p class="lead">Willkommen in der HTML & CSS Zone. Hier lernen Sie in kürzester Zeit die Grundlagen von HTML & CSS, um deine eigene Webseite zu 
+				erstellen und zu gestalten. Viel Spaß dabei!</p>
+				<p><a class="btn btn-lg btn-primary" href="html/einstieg.html" role="button">Jetzt loslegen und Profi werden</a></p>
+			</div>	
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<div style="width:250px" id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					  <!-- Positionsanzeiger -->
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							</ol>
+
+					  <!-- Verpackung für die Elemente -->
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<img style="height:150px" src="media/karussel1.jpg" alt="...">
+								</div>
+								<div class="item">
+									<img style="height:150px" src="media/karussel2.jpg" alt="...">
+								</div>
+					  <!-- Schalter -->
+								<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+									<span class="sr-only">Zurück</span>
+								</a>
+								<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+									<span class="sr-only">Weiter</span>
+								</a>
+							</div>
+						</div>	
+					</div>
+					
+					
+					<div class="col-md-4 col-sm-4">
+						<div style="width:250px" id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						  <!-- Positionsanzeiger -->
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							</ol>
+
+						  <!-- Verpackung für die Elemente -->
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+								  <img style="height:150px" src="media/karussel2.jpg" alt="...">
+								</div>
+								<div class="item">
+								  <img style="height:150px" src="media/karussel3.jpg" alt="...">
+								</div>
+							  <!-- Schalter -->
+								<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+									<span class="sr-only">Zurück</span>
+								</a>
+								<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+									<span class="sr-only">Weiter</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					
+					
+					<div class="col-md-4 col-sm-4">
+						<div style="width:250px" id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					  <!-- Positionsanzeiger -->
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							</ol>
+
+					  <!-- Verpackung für die Elemente -->
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<img style="height:150px" src="media/karussel3.jpg" alt="...">
+								</div>
+								<div class="item">
+									<img style="height:150px" src="media/karussel4.jpg" alt="...">
+								</div>
+						  <!-- Schalter -->
+								<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+									<span class="sr-only">Zurück</span>
+								</a>
+								<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+									<span class="sr-only">Weiter</span>
+								</a>
+							</div>
+						</div>	
+					</div>
+				</div>				
+			</div> <!-- Ende des Main Containers. -->	
+		</div><!-- Ende Row 2 -->
+	</body>
+</html>
